@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>AP</title>
+<link href="https://fonts.googleapis.com/css2?family=Gaegu:wght@400;700&display=swap" rel="stylesheet">
+<style>
+body {
+font-family: 'Gaegu', cursive;
+background-image: url("water.jpg");
+background-size: cover;
+background-position: center;
+margin: 0;
+text-align: center;
+}
+
+h1 {
+background-color: #001f4d;
+padding: 20px;
+color: #fcf1ae;
+font-size: 50px;
+border-radius: 15px;
+display: inline-block;
+}
+
+h1.category {
+background-color: #ff99b8;
+color: #001f4d;
+font-size: 40px;
+padding: 10px 25px;
+border-radius: 15px;
+margin: 30px auto 10px auto;
+text-align: center;
+display: block;
+width: fit-content;
+}
+
+.lesson-images {
+display: flex;
+justify-content: center;
+align-items: flex-start;
+gap: 40px;
+flex-wrap: wrap;
+}
+
+.image-box {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+img {
+border: 5px solid #ff99b8;
+border-radius: 15px;
+margin: 10px;
+width: 350px;
+height: 250px;
+object-fit: cover;
+}
+
+.caption {
+background-color: #fcf1ae;
+border: 2px solid #ff99b8;
+border-radius: 10px;
+padding: 6px 10px;
+color: #001f4d;
+font-size: 18px;
+margin-top: 5px;
+display: inline-block;
+}
+
+details.notes {
+background-color: #fcf1ae;
+color: #001f4d;
+border: 3px solid #ff99b8;
+border-radius: 15px;
+padding: 15px;
+display: block;
+text-align: left;
+font-size: 20px;
+max-width: 750px;
+margin: 10px auto;
+transition: all 0.3s ease;
+overflow: hidden;
+}
+
+details.notes[open] {
+background-color: #ffe9b3;
+box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+details.notes summary + * {
+overflow: hidden;
+max-height: 0;
+opacity: 0;
+transition: max-height 0.6s ease, opacity 0.4s ease;
+}
+
+details.notes[open] summary + * {
+max-height: 500px;
+opacity: 1;
+}
+
+details.notes summary {
+cursor: pointer;
+font-weight: bold;
+list-style: none;
+font-size: 22px;
+color: #001f4d;
+outline: none;
+}
+
+details.notes summary::-webkit-details-marker {
+display: none;
+}
+
+details.notes summary:hover {
+color: #ff4d7a;
+transition: color 0.2s ease;
+}
+
+a.back {
+font-size: 35px;
+background-color: #ff99b8;
+color: #001f4d;
+text-decoration: none;
+padding: 8px 15px;
+border-radius: 10px;
+display: inline-block;
+margin-top: 30px;
+}
+
+a.back:hover {
+text-decoration: underline;
+color: #fcf1ae;
+}
+
+hr.rounded {
+border-top: 8px solid #001f4d;
+border-radius: 5px;
+width: 90%;
+margin: 40px auto;
+}
+</style>
+</head>
+
+<body>
+
+<h1>&#127802; AP - Maykroekonomiks &#127802;</h1>
+<hr class="rounded">
+
+<h1 class="category">Lesson 1 - Demand</h1>
+<div class="lesson-images">
+<div class="image-box"><img src="taasdemand.jpg"><p class="caption">Pagtaas ng Demand</p></div>
+<div class="image-box"><img src="babademand.jpg"><p class="caption">Pagbaba ng Demand</p></div>
+</div>
+
+<details class="notes"><summary>Depinisyon ng Demand</summary>
+<p>Ang <strong>demand</strong> ay tumutukoy sa dami ng produkto o serbisyo na gusto at kayang bilhin ng mga mamimili sa isang takdang presyo at panahon.</p>
+</details>
+
+<details class="notes"><summary>Presyo bilang Determinant</summary>
+<p>Ang <strong>presyo</strong> ang pinakamahalagang nagtatakda (determinant) sa dami ng demand.</p>
+</details>
+
+<details class="notes"><summary>Batas ng Demand</summary>
+<ul>
+<li>Kapag <strong>tumataas</strong> ang presyo, <strong>bumababa</strong> ang dami ng gusto at kayang bilhin.</li>
+<li>Kapag <strong>bumababa</strong> ang presyo, <strong>tumataas</strong> ang dami ng gusto at kayang bilhin.</li>
+</ul>
+</details>
+
+<details class="notes"><summary>Ceteris Paribus</summary>
+<p>Ipinagpapalagay na ang presyo lamang ang salik na nakaapekto sa pagbabago ng quantity demanded, habang ang ibang salik ay hindi nagbabago o nakaapekto rito.</p>
+</details>
+
+<details class="notes"><summary>Bakit may Inverse na Ugnayan?</summary>
+<ul>
+<li><strong>Substitution Effect:</strong> Kapag tumataas ang presyo ng isang produkto, ang mga mamimili ay hanap ng pamalit na mas mura.</li>
+<li><strong>Income Effect:</strong> Mas malaki ang halaga ng kinikita kapag mas mababa ang presyo.</li>
+</ul>
+</details>
+
+<details class="notes"><summary>Mathematical Formula</summary>
+<p>Demand = Kagustuhan + Kakayahan</p>
+</details>
+
+<details class="notes"><summary>Demand Function</summary>
+<p>Qd = a - bP<br><br><strong>Kung saan:</strong><br>Qd = dami ng demand (Dependent)<br>a = dami ng demand kung ang presyo ay 0<br>-b = slope ng demand function<br>p = presyo</p>
+</details>
+
+<details class="notes"><summary>Demand Curve</summary>
+<p>Flow of representation ng batas ng demand.<br>Isang linya na nagpapakita ng negatibong relasyon ng presyo at dami ng produktong handang bilhin ng mamimili.</p>
+</details>
+
+<details class="notes"><summary>Mga Salik ng Produkto</summary>
+<ol>
+<li>Kita</li>
+<li>Populasyon</li>
+<li>Panlasa</li>
+<li>Presyo</li>
+<li>Inaasahan ng mga mamimili sa presyo sa hinaharap</li>
+<li>Okasyon</li>
+<li>Panahon o Klima</li>
+</ol>
+</details>
+
+
+<hr class="rounded">
+
+<h1 class="category">Lesson 2 - Supply</h1>
+<div class="lesson-images">
+<div class="image-box"><img src="taassupply.jpg"><p class="caption">Pagtaas ng Supply</p></div>
+<div class="image-box"><img src="babasupply.jpg"><p class="caption">Pagbaba ng Supply</p></div>
+</div>
+
+<details class="notes"><summary>Depinisyon ng Supply</summary><p>Ang <strong>supply</strong> ay dami ng produkto o serbisyo na gustong ibenta ng mga produsyer sa isang takdang presyo at partikular na panahon.</p></details>
+
+<details class="notes"><summary>Mathematical Formula</summary>
+<p>Supply = Pagnanais + Kakayahan</p>
+</details>
+
+<details class="notes"><summary>Supply Function</summary>
+<p>Ang <strong>supply function</strong> ay nagpapakita ng ugnayan ng presyo at dami ng produkto na handang ipagbili ng prodyuser.</p>
+</details>
+
+<details class="notes"><summary>Supply Schedule</summary>
+<p>Ang <strong>supply schedule</strong> ay isang talahanayan na nagpapakita ng dami ng produkto na handang ipagbili sa iba’t ibang presyo.</p>
+</details>
+
+<details class="notes"><summary>Supply Curve</summary>
+<p>Ang <strong>supply curve</strong> ay grapikong paglalarawan ng ugnayan ng presyo at dami ng produkto na handang ipagbili.</p>
+</details>
+
+<details class="notes"><summary>Market Supply</summary>
+<p>Ang <strong>market supply</strong> ay kabuuang dami ng produkto na handang ipagbili ng lahat ng prodyuser sa pamilihan.</p>
+</details>
+
+<details class="notes"><summary>Batas ng Supply</summary>
+<p>Ang <strong>batas ng supply</strong> ay nagsasabing kapag tumaas ang presyo, tumataas din ang dami ng produktong handang ipagbili, at kabaliktaran kapag bumaba ang presyo.</p>
+</details>
+
+<details class="notes"><summary>Grapikong Paglalarawan ng Pagbabago ng Supply</summary>
+<ul>
+<li><strong>Paggalaw sa iisang kurba:</strong> nagaganap kapag nagbago ang presyo ng produkto.</li>
+<li><strong>Paglipat ng kurba:</strong> nagaganap kapag may ibang salik (maliban sa presyo) na nagbago, tulad ng teknolohiya o gastos sa produksyon.</li>
+</ul>
+</details>
+
+<details class="notes"><summary>Mga Salik na Nakaaapekto sa Supply</summary>
+<ul>
+<li>Teknolohiya</li>
+<li>Dami ng Tinda</li>
+<li>Subsidy</li>
+<li>Gastos sa Produksiyon</li>
+<li>Panahon/Klima</li>
+<li>Presyo ng Ibang Produkto</li>
+<li>Ekspektasyon</li>
+</ul>
+</details>
+
+
+<hr class="rounded">
+
+<h1 class="category">Lesson 3 - Price Elasticity</h1>
+<div class="lesson-images">
+<div class="image-box"><img src="elastic.jpg"><p class="caption">Elastic Demand</p></div>
+<div class="image-box"><img src="inelastic.jpg"><p class="caption">Inelastic Demand</p></div>
+</div>
+
+<details class="notes">
+  <summary>Elastisidad</summary>
+  <p>Paraan upang masukat ang pagtugon ng mga mamimili at nagtitinda sa pagbabago ng presyo.</p>
+</details>
+
+<details class="notes">
+  <summary>Elastisidad ng Demand (ED)</summary>
+  <p>Pagsukat ng porsiyento ng pagtugon ng mamimili sa bawat porsiyento ng pagbabago ng presyo.</p>
+</details>
+
+<details class="notes">
+  <summary>Elastisidad ng Supply (ES)</summary>
+  <p>Pagsukat ng porsiyento ng pagtugon ng nagtitinda sa bawat porsiyento ng pagbabago ng presyo.</p>
+</details>
+
+<details class="notes">
+  <summary>Uri ng Elastisidad</summary>
+  <ul>
+    <li><strong>Elastik</strong> – Kapag malaki ang naging bahagdan ng pagtugon ng quantity demanded o quantity supplied kaysa sa bahagdan ng pagbabago ng presyo (E &gt; 1). Halimbawa: mga produktong may maraming pamalit.</li>
+    <li><strong>Di-Elastik</strong> – Kapag maliit ang bahagdan ng pagtugon ng quantity demanded o quantity supplied kaysa sa pagbabago ng presyo (E &lt; 1). Halimbawa: pangunahing pangangailangan tulad ng gamot.</li>
+    <li><strong>Unitary</strong> – Pareho ang bahagdan ng pagbabago ng presyo sa bahagdan ng quantity demanded (E = 1).</li>
+    <li><strong>Ganap na Elastik (Perfectly Elastic)</strong> – Anumang pagbabago sa presyo ay magdudulot ng infinite na pagbabago sa quantity demanded o supplied. Produkto na handang bilhin/benta ng marami sa iisang takdang presyo (hal. tsokolate).</li>
+    <li><strong>Ganap na Di-Elastik (Perfectly Inelastic)</strong> – Nangangahulugan na ang quantity demanded o supplied ay hindi tumutugon sa pagbabago ng presyo (E = 0). Halimbawa: mga produktong napakahalaga tulad ng bigas.</li>
+  </ul>
+</details>
+
+
+
+<hr class="rounded">
+
+<h1 class="category">Lesson 4 - Market Equilibrium</h1>
+<div class="lesson-images">
+<div class="image-box"><img src="epoint.jpg"><p class="caption">Equilibrium Point</p></div>
+<div class="image-box"><img src="ss.jpg"><p class="caption">Surplus at Shortage</p></div>
+</div>
+
+<details class="notes"><summary>Equilibrium</summary>
+<p>Isang kalagayan na walang sinuman sa mamimili at nagtitinda ang gustong baguhin ang kasalukuyang sitwasyon sa pamilihan. Ipinapakita rito ang pagkakasundo ng bumibili at nagtitinda sa isang takdang presyo at dami ng produkto.</p>
+</details>
+
+<details class="notes"><summary>Law of Supply and Demand</summary>
+<p><strong>If price increases:</strong> Supply ↑ , Demand ↓<br>
+<strong>If price decreases:</strong> Supply ↓ , Demand ↑</p>
+</details>
+
+<details class="notes"><summary>Mga Kaganapan sa Pagbabago sa Pamilihan</summary>
+<ol>
+<li>Paglipat ng supply curve pakanan subalit walang pagbabago sa demand curve.</li>
+<li>Paglipat ng supply curve pakaliwa subalit walang pagbabago sa demand curve.</li>
+<li>Paglipat ng demand curve pakanan subalit walang pagbabago sa supply curve.</li>
+<li>Paglipat ng demand curve pakaliwa subalit walang pagbabago sa supply curve.</li>
+<li>Parehas ang paglipat ng demand at supply curve pakanan sa parehas na bahagi.</li>
+<li>Parehas ang paglipat ng demand at supply curve pakaliwa sa parehas na bahagi.</li>
+<li>Parehas na lumipat ang demand at supply curve pakanan subalit mas malaki ang bahagdan ng pagbabago ng supply kaysa sa demand.</li>
+<li>Parehas na lumipat ang demand at supply curve pakaliwa subalit mas malaki ang bahagdan ng pagbabago ng supply kaysa sa demand.</li>
+<li>Parehas na lumipat ang demand at supply curve pakanan subalit mas malaki ang bahagdan ng pagbabago ng demand kaysa sa supply.</li>
+<li>Parehas na lumipat ang demand at supply curve pakaliwa subalit mas malaki ang bahagdan ng pagbabago ng demand kaysa sa supply.</li>
+<li>Parehas na lumipat ang demand at supply curve pakanan subalit mas maliit ang bahagdan ng pagbabago ng demand kaysa sa supply.</li>
+<li>Parehas na lumipat ang demand at supply curve pakaliwa subalit mas maliit ang bahagdan ng pagbabago ng demand kaysa sa supply.</li>
+<li>Paglipat ng supply curve pakanan at paglipat ng demand curve pakaliwa sa parehas na bahagi.</li>
+<li>Paglipat ng supply curve pakaliwa at paglipat ng demand curve pakanan sa parehas na bahagi.</li>
+<li>Walang pagbabago sa demand at supply.</li>
+</ol>
+</details>
+
+<details class="notes"><summary>Disequilibrium</summary>
+<p>Ang dami ng demand ay maaaring kulang o sobra sa supply.<br><strong>Dami ng Demand ≠ Dami ng Supply</strong></p>
+</details>
+
+<details class="notes"><summary>Surplus</summary>
+<p>Ang dami ng supply ay mas marami kung ihahambing sa dami ng demand.<br><strong>Dami ng Demand &lt; Dami ng Supply</strong></p>
+</details>
+
+<details class="notes"><summary>Shortage</summary>
+<p>Ang dami ng demand ay mas marami kung ihahambing sa dami ng supply.<br><strong>Dami ng Demand &gt; Dami ng Supply</strong></p>
+</details>
+
+
+<hr class="rounded">
+
+<h1 class="category">Lesson 5 - Iba't Ibang Estruktura ng Pamilihan</h1>
+<div class="lesson-images">
+<div class="image-box"><img src="gnk.jpg"><p class="caption">Ganap na Kompetisyon</p></div>
+<div class="image-box"><img src="meralco.jpg"><p class="caption">Monopolyo</p></div>
+</div>
+
+<details class="notes"><summary>Mga Estruktura ng Pamilihan</summary>
+<p>Mula sa ideya ng kompetisyon ay nagkaroon ng iba’t ibang estruktura ng pamilihan.</p>
+<p>Sa ilalim ng di-ganap na kompetisyon ay napapabilang ang <strong>monopoly</strong>, <strong>monopolistikong kompetisyon</strong>, <strong>oligopoly</strong>, at <strong>monopsonyo</strong>.</p>
+</details>
+
+<details class="notes"><summary>Ganap na Kompetisyon</summary>
+<p>Malaya ang pamilihan sa ilalim ng estrukturang ito sapagkat dito ay walang kontrol ang pamahalaan. Isang halimbawa ng kontrol ay ang paglalagay ng <strong>price ceiling</strong>.</p>
+<ul>
+<li>Marami ang mamimili at nagbebenta</li>
+<li>Ang mga produktong binebenta ay magkakatulad</li>
+<li>May ganap na kaalaman ang mamimili at nagbebenta sa kalagayan ng pamilihan</li>
+<li>Malaya ang paggalaw ng mga salik ng produksyon</li>
+<li>Malaya ang kalakalan sa industriya</li>
+</ul>
+</details>
+
+<details class="notes"><summary>Di-Ganap na Kompetisyon</summary>
+<p>Mas madaling matamo ang di-ganap na kompetisyon kaysa ganap na kompetisyon dahil mahirap tuparin ang mga kondisyon ng ganap na kompetisyon.</p>
+</details>
+
+<details class="notes"><summary>Monopoly</summary>
+<p>Ang <strong>monopoly</strong> ay paggawa ng isang produkto o serbisyong walang kauri at walang maaaring kumalaban.</p>
+</details>
+
+<details class="notes"><summary>Monopolistikong Kompetisyon</summary>
+<p>Ito ay estruktura ng pamilihan na may mga elemento ng ganap na kompetisyon at monopoly. Maraming mamimili at nagbebenta ng <strong>magkakatulad ngunit may pagkakaibang produkto</strong> batay sa <strong>brand name</strong>.</p>
+</details>
+
+<hr class="rounded">
+
+<h1 class="category">Lesson 6 - Pagkontrol ng Presyo ng Pamahalaan</h1>
+<div class="lesson-images">
+<div class="image-box"><img src="ceiling.jpg"><p class="caption">Ceiling Price </p></div>
+<div class="image-box"><img src="floor.jpg"><p class="caption">Floor Price </p></div>
+</div>
+
+<details class="notes"><summary>Ang Pagkontrol ng Presyo ng Pamahalaan</summary>
+<p>Ang pagtatalaga ng pamahalaan ng pinakamababa at pinakamataas na presyong maaaring itakda sa mga produkto at serbisyo.</p>
+</details>
+
+<details class="notes"><summary>Republic Act 7581</summary>
+<p>Kilala ito bilang <strong>Price Control Act</strong> na may layuning maisagawa ng pamahalaan ang pagkontrol sa presyo ng mga bilihin.</p>
+</details>
+
+<details class="notes"><summary>National Price Coordination Council</summary>
+<p>Ito ay may layunin na mabantayan ang mga presyo ng mga produkto upang mapigilan ang paggalaw nito sa pamamagitan ng price ceiling at pamahalaan.</p>
+</details>
+
+<details class="notes"><summary>Price Ceiling</summary>
+<p>Ito ay ang pinakamataas na presyong itinakda ng pamahalaan upang ipagbili ang mga produkto.</p>
+<ul>
+<li>Nagsisilbing proteksyon ng mamimili laban sa mga mapagsamantalang negosyante.</li>
+<li>Itinatakda ito sa mas mababang antas kaysa sa equilibrium price na umiiral sa pamilihan.</li>
+</ul>
+</details>
+
+<details class="notes"><summary>Price Support</summary>
+<p>Isinasagawa ito ng pamahalaan upang tulungan at bigyang proteksyon ang mga prodyuser upang mabayaran ang mga gastos sa produksyon.</p>
+</details>
+
+<details class="notes"><summary>Floor Price</summary>
+<p>Ito ay ang pinakamababang presyong itinakda ng pamahalaan upang ipagbili ang mga produkto.</p>
+</details>
+
+<hr class="rounded">
+
+<h1 class="category">Reflection!</h1>
+
+<details class="notes"><summary>Buod ng Aralin</summary>
+<p>Sa mga araling tinalakay, natutuhan ko kung paano gumagana ang pamilihan at kung paanong ang presyo, demand, at supply ay nagtatagpo upang makamit ang <strong>equilibrium</strong>. Naunawaan ko rin ang papel ng pamahalaan sa pagpapanatili ng patas na kalakalan sa pamamagitan ng pagtakda ng presyo. Sa lahat ng paksa, ang pinaka tumatak sa akin ay ang <strong>Market Equilibrium</strong>, dahil dito ko nakita kung paanong ang simpleng pagbabago sa presyo o supply ay maaaring makaapekto sa buong ekonomiya. Ipinakita nito na ang balanse sa pagitan ng mamimili at prodyuser ay mahalaga upang maiwasan ang kakulangan o labis na produkto, at mapanatili ang kaayusan sa pamilihan.</p>
+</details>
+
+
+<hr class="rounded">
+
+<a href="Homepage.html" class="back">Back to Home!</a>
+
+</body>
+</html>
